@@ -8,7 +8,7 @@ public class Reg3{
         System.out.println("Enter String - ");
         String str=s.nextLine();
 
-        String regex="\\i+";
+        String regex="\\d+";
 
         Pattern p=Pattern.compile(regex);
         Matcher m=p.matcher(str);
